@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+span
+{
+    font-size:50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    
+}
+
+body
+{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tabuleiro
+{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:5px;
+
+    width:500px;
+    height:500px;
+
+    background-color:#0B3861;
+
+    color: white;
+    font-size:100px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.posicao
+{
+    display:flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #084B8A;
+    
+}
